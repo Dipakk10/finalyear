@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <title>Document</title>
+</head>
+
+<!-- <body>
+    <div class="center">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div> -->
+
+    <div style="display:none;" id="con">
+        <div id="box">
+            <!-- logo -->
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <!-- front content -->
+                        <img src="pngwing.com.png" alt="logoim" class="logoim">
+                    </div>
+                    <div class="back">
+                        <!-- back content -->
+                        <img src="logo.png" alt="logo" class="logoim">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heading -->
+            <div id="intro">
+                <h3>Welcome to AI</h3>
+                <h1><span>A</span>I <span>H</span>ealthCare <span>H</span>ub</h1>
+            </div>
+
+            <!-- card -->
+            <div class="container">
+                <div class="card__container">
+                    <article class="card__article">
+                        <img src="./image/new/freestocks-9UVmlIb0wJU-unsplash.jpg" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <span class="card__description">DONNER</span>
+                            <h2 class="card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                                fugiat sunt.</h2>
+                            <button class="button-86" role="button">86</button>
+                        </div>
+                    </article>
+
+                    <article class="card__article">
+                        <img src="./image/new/ian-dooley-C6BrEIucDDU-unsplash.jpg" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <span class="card__description">NEDEY</span>
+                            <h2 class="card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
+                                autem nulla repellendus.</h2>
+                            <button class="button-86" role="button">86</button>
+                        </div>
+                    </article>
+
+                    <article class="card__article">
+                        <img src="./image/new/vinicius-wiesehofer-UOavP_Z38lE-unsplash.jpg" alt="image"
+                            class="card__img">
+
+                        <div class="card__data">
+                            <span class="card__description">MENTAL WILLNESS</span>
+                            <h2 class="card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores, recusandae.</h2>
+                            <button class="button-86" role="button">86</button>
+                        </div>
+                    </article>
+
+                    <article class="card__article">
+                        <img src="./image/new/vinicius-wiesehofer-UOavP_Z38lE-unsplash.jpg" alt="image" <div
+                            class="card__data">
+                        <span class="card__description">psychotherapy</span>
+                        <h2 class="card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                            vel.</h2>
+                        class="card__img">
+                        <button class="button-86" role="button">86</button>
+                </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelectorAll("body").style.visibility = "hidden";
+                document.querySelectorAll(".center").style.visibility = "visible";
+            } 
+            else {
+                document.querySelectorAll(".center").style.display = "none";
+                document.querySelectorAll("body").style.visibility = "visible";
+            }
+        };
+    </script>
+</body>
+
+</html>
